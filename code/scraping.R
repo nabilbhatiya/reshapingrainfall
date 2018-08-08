@@ -14,7 +14,7 @@ library(tidyr)
 
 # library(stringi)
 
-filepath <- "../rawdata/1998_rainfall"
+filepath <- "../rawdata/1998_rainfall.html"
 table <- read_html(filepath)
 
 monthly_rainfall <- as.data.frame(table %>% html_table(fill=TRUE))
