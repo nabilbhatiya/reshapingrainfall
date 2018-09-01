@@ -1,10 +1,11 @@
 rm(list=ls())
 
+# install.packages("rvest", dependencies=TRUE, repos='http://cran.rstudio.com/')
 # install.packages("rvest")
 # install.packages("stringi")
 # install.packages("reshape2")
 # install.packages('zoo')
-# install.packages('tidyr')
+# install.packages('tidyr', dependencies=TRUE, repos='http://cran.rstudio.com/')
 
 library(rvest)
 library(reshape2)
